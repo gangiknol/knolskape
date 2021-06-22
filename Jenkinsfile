@@ -15,7 +15,7 @@ pipeline {
 
     stage('testing') {
       steps {
-        sh 'echo test'
+        sh 'echo test--master'
       }
     }
 
